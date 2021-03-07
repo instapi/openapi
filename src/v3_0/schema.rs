@@ -400,7 +400,7 @@ pub struct Parameter {
 
 #[derive(Clone, Debug, Deserialize, Serialize, PartialEq)]
 #[serde(rename_all = "camelCase")]
-enum ParameterStyle {
+pub enum ParameterStyle {
     Matrix,
     Label,
     Form,
